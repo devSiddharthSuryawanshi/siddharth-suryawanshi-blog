@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Header */
+header h1 {
+  font-size: 2.6rem;
+  margin-bottom: 6px;
+  color: #f8fafc;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #cbd5f5;
+}
+
+.tags {
+  margin-top: 16px;
+}
+
+.tags span {
+  display: inline-block;
+  background: #1e293b;
+  color: #93c5fd;
+  padding: 6px 12px;
+  margin: 6px 6px 0 0;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+/* Section */
+section h2 {
+  margin-top: 50px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 10px;
+}
+
+/* Post Card */
+.post-card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 14px;
+  padding: 26px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.post-card h3 {
+  margin-top: 0;
+  color: #f1f5f9;
+}
+
+.post-card p {
+  color: #cbd5f5;
+}
+
+.post-card a {
+  text-decoration: none;
+  color: #60a5fa;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  margin-top: 70px;
+  padding-top: 20px;
+  border-top: 1px solid #334155;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+footer .links a {
+  margin-right: 14px;
+  text-decoration: none;
+  color: #60a5fa;
+}
